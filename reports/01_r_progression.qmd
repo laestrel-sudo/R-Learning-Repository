@@ -7,12 +7,16 @@ output: html_document
 ```{r}
 library(tidyverse)
 library(dplyr)
+library(here)
 ```
 
 ```{r}
-student_data <- read.csv2(
-  here::here("data","math_students.csv")
+
+student_data <- read_csv(
+  here("data", "math_students.csv"),
+  skip = 1
 )
+student_data
 ```
 
 ```{r}
