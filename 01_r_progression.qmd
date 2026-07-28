@@ -1,0 +1,22 @@
+
+---
+title: "01_ r_progression"
+Author: Luis Estrella 
+output: html_document
+Dataset: UCI Machine Learning Repository — Student Performance Data (CC BY-NC 4.0)
+---
+```{r}
+library(tidyverse)
+library(dplyr)
+library(here)
+```
+
+```{r}
+student_data <- read.csv2(
+  here::here("math_students.csv")
+)
+```
+
+```{r}
+glimpse(student_data)
+```
