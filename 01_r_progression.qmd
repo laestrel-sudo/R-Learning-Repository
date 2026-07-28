@@ -13,7 +13,7 @@ library(here)
 
 ```{r}
 student_data <- read.csv2(
-  here::here("math_students.csv")
+  here::here("data","math_students.csv")
 )
 ```
 
