@@ -1,0 +1,20 @@
+
+---
+title: "01_ r_progression"
+Author: Luis Estrella 
+output: html_document
+---
+```{r}
+library(tidyverse)
+library(dplyr)
+```
+
+```{r}
+student_data <- read.csv2(
+  here::here("data","math_students.csv")
+)
+```
+
+```{r}
+glimpse(student_data)
+```
