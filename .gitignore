@@ -1,0 +1,13 @@
+# R and R studio
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# mac files
+.DS_Store
+
+# R build
+*.html
+*_files/
